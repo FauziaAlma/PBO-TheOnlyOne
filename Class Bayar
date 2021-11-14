@@ -1,0 +1,7 @@
+public class Bayar implements TokoSepatu{
+    int harga , jum;
+    public int bayar(int harga, int jum){
+      return harga * jum;
+    }
+    
+}
