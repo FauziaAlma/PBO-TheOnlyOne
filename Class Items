@@ -1,0 +1,19 @@
+public class Items implements TokoSepatu {
+    private String brand;
+    private int kode, harga;
+    @Override
+    public void setId(String nama,String jk, int umur)
+    {
+    
+    }
+    @Override
+    public void setBarang(int kode, String brand,int harga)
+    {
+       this.kode = kode;
+       this.brand = brand;
+       this.harga = harga;
+       System.out.println(kode+" "+brand+" "+harga);
+       
+       
+    }
+}
