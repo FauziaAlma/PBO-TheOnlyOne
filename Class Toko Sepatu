@@ -1,0 +1,4 @@
+public interface TokoSepatu {
+void setId(String nama, String jk,int umur);
+void setBarang(int kode, String brand,int harga);
+}
