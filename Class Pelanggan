@@ -1,0 +1,18 @@
+public class Pelanggan implements TokoSepatu {
+    private String nama,jk;
+    private int umur;
+    @Override
+    public void setId(String nama, String jk,int umur)
+    {
+        this.nama = nama;
+        this.jk = jk;
+        this.umur = umur;
+        System.out.println("Hello Customer : "+nama);
+    }
+    @Override
+    public void setBarang(int kode, String brand,int harga)
+    {
+      
+    }
+    
+}
